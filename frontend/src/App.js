@@ -645,7 +645,7 @@ function App() {
   const predictionToText = (predictionArray) => {
     const output = predictionArray[0];
     const maxIndex = output.indexOf(Math.max(...output));
-    const classNames = ["Label_1", "Label_2"];
+    const classNames = ["Hi", "Bye"];
     return classNames[maxIndex];
   };
 
@@ -899,3 +899,4 @@ function App() {
 }
 
 export default App;
+
